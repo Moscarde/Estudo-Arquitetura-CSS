@@ -1,0 +1,34 @@
+.cabecalho{
+    align-items: center;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__item{
+    list-style: none;
+}
+
+
+.menu__link{
+    margin-right: 1.25rem;
+    color:#808080;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.menu__item:last-child .menu__link{
+    margin-right: 0;
+}
+.menu__link.ativo{
+    color:#333333;
+    font-weight: bold;
+}
+.menu__link:hover{
+    text-decoration: underline;
+}
